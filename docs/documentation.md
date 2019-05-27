@@ -35,7 +35,7 @@ start local server:
 To view the site navigate to: [http://localhost:8000/](http://localhost:8000/)
 
 ## Adding Pages
-Edit the mkdocs.yml file and add in elements o the nav list.
+Edit the mkdocs.yml file and add in elements to the nav list.
 Then create the corresponding file e.g. docs/about.md
 
 Add the following to to mkdocs.yml:
