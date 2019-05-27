@@ -1,0 +1,6 @@
+site_name: GMcD - Home Climate Monitoring
+nav:
+    - Home: index.md
+    - About: about.md
+    - Documentation: documentation.md
+theme: readthedocs
