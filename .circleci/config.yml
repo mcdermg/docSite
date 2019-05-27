@@ -7,11 +7,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Hexo CLI
+          name: Install mkdocs
           command: pip install mkdocs
       - run:
           name: build site
           command: mkdocs build
+      - run:
+          name: Pip Install AWS CLI
+          command: pip install awscli
       - run:
           name: Push to S3 bucket
           command: cd site/ && aws s3 sync . s3://mkdocs-casual-urchin --region eu-west-1 --acl public-read
